@@ -1,0 +1,149 @@
+*{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+
+    background-color: rgb(42, 42, 54);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+.navbar{
+    margin-bottom: 40px;
+    
+}
+#painel h1{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 900;
+    color: aliceblue;
+
+}
+.nav{
+    background-color: rgb(57, 57, 88);
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-size: 25px;
+}
+.sidebar{
+    opacity:0.9;
+    background-color: black;
+}
+.card{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    opacity: 0.8;
+    color: aliceblue;
+}
+.card:hover{
+    background-color: rgb(79, 79, 79);
+    opacity: 1;
+}
+.barrinha{
+   background-color: rgb(45, 6, 81);
+}
+.caixa-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    padding: 20px;
+    margin: 10px;
+    color: aliceblue;
+
+}
+.label label{
+    color: aliceblue;
+}
+.formulario{
+    background-color: aqua;
+    padding: 50px;
+    display: flex;
+    align-items: baseline;
+    justify-content:center;
+    flex-direction: column;
+    gap: 60px;
+}
+.cad input{
+    
+    margin: 30px;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+
+}
+.cad{
+    background-color: rgb(43, 3, 90);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.cad h1{
+    color: aliceblue;
+    text-decoration: double;
+}
+.botao{
+    background-color: rgb(27, 2, 73);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: none;
+    margin-bottom: 20px;
+
+}
+.botao:hover{
+    background-color: rgb(60, 6, 255);
+}
+
+.login {
+    height: auto;
+    
+}
+
+
+.cadastro{
+    background-color: rgb(43, 3, 90);
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+.cadastro label{
+    color: aliceblue;
+}
+.cadastro h1{
+    
+    color: aliceblue;
+}
+input{
+    max-width: 100%;
+}
+
+#painel{
+    
+    min-height: 100vh;
+
+}
+
+.user{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 20px;
+    border-radius: 100px;
+}
+
+.perigo h1{
+    text-align: center;
+}
+
